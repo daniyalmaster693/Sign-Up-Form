@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" href="Sign In.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Sign In Icon.png" />
+    <script src="Sign In.js"></script>
+    <title>Sign In Form</title>
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="form">
+        <h1 class="welcome">Welcome Back!</h1>
+        <h3 class="info">Enter your credentials to access your account</h3>
+
+        <div class="email">
+          <h3 class="title-1">Email address</h3>
+          <p class="email-error">*This field is Required</p>
+          <input
+            type="email"
+            class="email-input"
+            id="email-form"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="password">
+          <h3 class="title-2">Password</h3>
+          <p class="password-error">*This field is Required</p>
+          <input
+            type="password"
+            class="password-input"
+            id="password"
+            minlength="4"
+            placeholder="Enter your password"
+          />
+          <a href="forgot password.html" class="forgot-password"
+            >forgot password</a
+          >
+        </div>
+
+        <div class="remember">
+          <input type="checkbox" class="remember-check" id="remember-warning" />
+          <p>Remember for 30 days</p>
+        </div>
+
+        <div class="sumbit">
+          <button class="login">Login</button>
+        </div>
+
+        <div class="divider-line">
+          <hr class="hr" />
+          <p>Or</p>
+        </div>
+
+        <div class="company-authentication">
+          <button class="google-sign-in">
+            <img src="Google Icon.svg" alt="Google Icon" />
+            <p>Sign in with Google</p>
+          </button>
+
+          <button class="apple-sign-in">
+            <img src="Apple Icon.svg" alt="Apple Icon" />
+            <p>Sign in with Apple</p>
+          </button>
+        </div>
+
+        <div class="create-an-account">
+          <p>Don't have an account? <a href="index.html">Sign Up</a></p>
+        </div>
+      </div>
+
+      <div class="image-banner">
+        <img src="figma tree.svg" alt="tree banner" />
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Coded by
+        <a href="https://github.com/Blaze4884" target="_blank" rel="noopener"
+          >Daniyal Master</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
